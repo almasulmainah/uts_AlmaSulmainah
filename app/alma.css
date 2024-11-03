@@ -1,0 +1,207 @@
+.almaclass{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin: 15px auto;
+    display: block;
+    border: solid 5px white;
+    box-shadow: 0px 0px 10px rgb(213, 144, 32);
+    cursor: pointer;
+    transition: .2s;
+}
+.almaclass:hover{
+    border: solid 5px rgba(123, 68, 23, 0.731);
+    box-shadow: 0px 0px 10px rgb(255, 191, 0);
+    transform: scale(1.1);
+}
+/* halo kang */
+/* styles/themes.css */
+.tema {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+/* Tema */
+body.light {
+  background-color: white;
+  color: black;
+}
+
+body.dark {
+  background-color: #333;
+  color: white;
+}
+
+body.blue {
+  background-color: #4d9edf;
+  color: white;
+}
+
+/* Gaya kotak warna tema */
+.theme-picker {
+  position: fixed; 
+  bottom: 20px; 
+  right: 20px; 
+  display: flex;
+  flex-direction: column;
+  gap: 2px; 
+}
+
+.color-box {
+  width: 30px;
+  height: 30px;
+  border-radius: 10px; 
+  cursor: pointer;
+  transition: transform 0.2s; 
+}
+
+.color-box:hover {
+  transform: scale(1.1); 
+}
+
+/* Warna kotak */
+.color-box.light {
+  background-color: white;
+  border: 2px solid #ccc; 
+}
+
+.color-box.dark {
+  background-color: #151414; /* Kotak tema Dark */
+  border: 2px solid #555;
+}
+
+.color-box.blue {
+  background-color: #4c9ddf; /* Kotak tema Blue */
+  border: 2px solid #0b7dda;
+}
+
+/* src/components/skill.css */
+.skill {
+  background-color: rgb(255, 191, 0);
+  border: solid 5px rgba(123, 68, 23, 0.731);
+}
+
+.skill-box {
+  background-color: #c18730; 
+}
+
+.skill-box ul {
+  list-style-type: none; 
+  padding: 0;
+}
+
+.skill-box li {
+  margin-bottom: 5px; 
+}
+
+.hobi{
+  background-color: rgb(255, 191, 0);
+  border: solid 5px rgba(123, 68, 23, 0.731);
+}
+
+.Sertifikat{
+  background-color: rgb(255, 191, 0);
+  border: solid 5px rgba(123, 68, 23, 0.731);
+}
+
+/* src/components/Experiences.css */
+.projectKu {
+  background-color: rgb(255, 191, 0);
+  border: solid 5px rgba(123, 68, 23, 0.731);
+}
+
+/* src/components/Interests.css */
+.interests {
+  background-color: rgb(255, 191, 0);
+  border: solid 5px rgba(123, 68, 23, 0.731);
+}
+
+/* src/components/uts.css */
+.my-card {
+  border-radius: 10px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.uts-item {
+  margin-bottom: 1.5rem;
+}
+
+.uts-item h3 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 0.5rem 0;
+}
+
+.uts-item p {
+  margin: 0;
+  color: #6c757d;
+}
+
+  /* styles/ContactForm.css */
+.form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #444444;
+  border-radius: 8px;
+  background-color: #daa62d;
+  color: #050505;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.inputGroup {
+  margin-bottom: 15px;
+}
+
+.label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.input,
+.textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  border: 1px solid #666;
+  background-color: #f7ce53;
+  color: #f0f0f0;
+}
+
+.buttonGroup {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.button {
+  padding: 8px 18px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: #1593ee; 
+  color: white;
+}
+
+.button[type="button"] {
+  background-color: #f44336;
+  color: white;
+}
+
+.hasil {
+  text-align: center;
+  margin-top: 50px;
+}
